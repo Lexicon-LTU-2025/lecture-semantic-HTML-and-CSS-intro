@@ -57,21 +57,10 @@ Instead of using generic containers like `<div>` or `<span>` for everything, you
 
 ## Example (non-semantic)
 
-```html
-<div class="top">
-  <div class="menu">...</div>
-</div>
-```
-
 [Back to top](#semantic-html-and-css)
 
 ## Example (semantic)
 
-```html
-<header>
-  <nav>...</nav>
-</header>
-```
 
 [Back to top](#semantic-html-and-css)
 
@@ -88,13 +77,6 @@ This is a guide to the most common **semantic HTML elements**, their meaning, wh
 **Example:**
 
 ```html
-<header>
-  <h1>My Blog</h1>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Contact</a>
-  </nav>
-</header>
 ```
 
 [Back to top](#semantic-html-and-css)
@@ -108,11 +90,6 @@ This is a guide to the most common **semantic HTML elements**, their meaning, wh
 **Example:**
 
 ```html
-<nav>
-  <a href="#">Home</a>
-  <a href="#">Products</a>
-  <a href="#">About Us</a>
-</nav>
 ```
 
 [Back to top](#semantic-html-and-css)
@@ -126,10 +103,6 @@ This is a guide to the most common **semantic HTML elements**, their meaning, wh
 **Example:**
 
 ```html
-<main>
-  <h2>Our Services</h2>
-  <p>We offer web development and design.</p>
-</main>
 ```
 
 [Back to top](#semantic-html-and-css)
@@ -143,10 +116,6 @@ This is a guide to the most common **semantic HTML elements**, their meaning, wh
 **Example:**
 
 ```html
-<section>
-  <h2>Testimonials</h2>
-  <p>Our clients love us!</p>
-</section>
 ```
 
 [Back to top](#semantic-html-and-css)
@@ -160,10 +129,6 @@ This is a guide to the most common **semantic HTML elements**, their meaning, wh
 **Example:**
 
 ```html
-<article>
-  <h2>How to Build a Website</h2>
-  <p>This article explains the basics of web development.</p>
-</article>
 ```
 
 [Back to top](#semantic-html-and-css)
@@ -177,10 +142,6 @@ This is a guide to the most common **semantic HTML elements**, their meaning, wh
 **Example:**
 
 ```html
-<aside>
-  <h3>Quick Tip</h3>
-  <p>Use semantic elements to improve accessibility!</p>
-</aside>
 ```
 
 [Back to top](#semantic-html-and-css)
@@ -194,9 +155,6 @@ This is a guide to the most common **semantic HTML elements**, their meaning, wh
 **Example:**
 
 ```html
-<footer>
-  <p>&copy; 2025 My Website</p>
-</footer>
 ```
 
 [Back to top](#semantic-html-and-css)
@@ -210,9 +168,6 @@ This is a guide to the most common **semantic HTML elements**, their meaning, wh
 **Example:**
 
 ```html
-<h1>Main Title</h1>
-<h2>Subsection</h2>
-<h3>Detail</h3>
 ```
 
 [Back to top](#semantic-html-and-css)
@@ -226,7 +181,6 @@ This is a guide to the most common **semantic HTML elements**, their meaning, wh
 **Example:**
 
 ```html
-<p>This is a paragraph explaining something important.</p>
 ```
 
 [Back to top](#semantic-html-and-css)
@@ -240,11 +194,6 @@ This is a guide to the most common **semantic HTML elements**, their meaning, wh
 **Example:**
 
 ```html
-<ul>
-  <li>Milk</li>
-  <li>Eggs</li>
-  <li>Bread</li>
-</ul>
 ```
 
 [Back to top](#semantic-html-and-css)
@@ -258,7 +207,6 @@ This is a guide to the most common **semantic HTML elements**, their meaning, wh
 **Example:**
 
 ```html
-<img src="pikachu.png" alt="Image of Pikachu" />
 ```
 
 [Back to top](#semantic-html-and-css)
@@ -272,7 +220,6 @@ This is a guide to the most common **semantic HTML elements**, their meaning, wh
 **Example:**
 
 ```html
-<a href="https://example.com">Visit our site</a>
 ```
 
 [Back to top](#semantic-html-and-css)
@@ -286,9 +233,6 @@ This is a guide to the most common **semantic HTML elements**, their meaning, wh
 **Example:**
 
 ```html
-<div class="card">
-  <span class="highlight">Important</span>
-</div>
 ```
 
 [Back to top](#semantic-html-and-css)
@@ -315,13 +259,9 @@ Here is a link to all the elements that exist: [HTML Element Reference - w3Schoo
 **Example:**
 
 ```css
-p {
-  color: darkblue;
-}
 ```
 
 ```html
-<p>This text will be dark blue.</p>
 ```
 
 [Back to top](#semantic-html-and-css)
@@ -370,11 +310,6 @@ Every HTML element is treated as a rectangular box made up of:
 **Example:**
 
 ```css
-.box {
-  margin: 1rem;
-  padding: 1rem;
-  border: 2px solid black;
-}
 ```
 
 [Back to top](#semantic-html-and-css)
@@ -397,9 +332,6 @@ Every HTML element is treated as a rectangular box made up of:
 **Example:**
 
 ```css
-.card .title {
-  font-weight: bold;
-}
 ```
 
 This targets any element with class `title` inside an element with class `card`.
@@ -431,17 +363,6 @@ The browser adds these up for each selector. The one with the highest total wins
 ### Specificity example:
 
 ```css
-p {
-  color: black;
-} /* (0, 0, 1) → 1 point */
-
-.article p {
-  color: gray;
-} /* (0, 1, 1) → 11 points */
-
-#main .article p {
-  color: blue;
-} /* (1, 1, 1) → 111 points */
 ```
 
 ### Tips
