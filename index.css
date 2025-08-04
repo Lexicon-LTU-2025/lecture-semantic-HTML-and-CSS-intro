@@ -1,0 +1,36 @@
+body {
+  background-color: #fffde7;
+  margin: 0; /* One value, every side gets the same value. */
+}
+
+header {
+  background-color: #ef5350;
+  color: #ffffff;
+  padding: 16px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  width: 800px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 32px auto; /* Two values, first is top/bottom, second is left and right. */
+  padding: 32px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+h2 {
+  text-align: center;
+}
