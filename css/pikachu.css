@@ -1,0 +1,16 @@
+body {
+  background: linear-gradient(to bottom, #fffde7, #e1f5fe);
+}
+
+header {
+  background-color: #ffcb05;
+}
+
+header,
+h2 {
+  color: #2a75bb;
+}
+
+h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
